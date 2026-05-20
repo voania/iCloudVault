@@ -64,8 +64,9 @@ body {
 .photo-card .tag-badge { position:absolute; bottom:4px; right:4px; font-size:10px; background:#000000aa; color:#ccc; padding:2px 6px; border-radius:8px; }
 .photo-card .ai-dot { position:absolute; top:4px; left:4px; width:8px; height:8px; border-radius:50%; background:#bb86fc; display:none; box-shadow:0 0 6px #bb86fc; }
 .photo-card.ai-tagged .ai-dot { display:block; }
-.photo-card .check-mark { display:none; position:absolute; top:6px; right:6px; width:22px; height:22px; border-radius:50%; background:#bb86fc; color:#000; font-size:13px; align-items:center; justify-content:center; z-index:3; }
-.photo-card.select-mode .check-mark { display:flex; }
+.photo-card .check-mark { display:none; position:absolute; top:6px; right:6px; width:22px; height:22px; border-radius:50%; color:#000; font-size:13px; align-items:center; justify-content:center; z-index:3; }
+.photo-card.select-mode .check-mark { display:flex; background:transparent; border:2px solid #555; }
+.photo-card.selected .check-mark { background:#bb86fc; border:none; }
 .photo-card.select-mode .tag-badge { display:none; }
 
 @keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
