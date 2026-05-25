@@ -2,13 +2,13 @@
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 
-title MiMo App Launcher
+title Momento App Launcher
 echo ===============================================
-echo          MiMo 相册 - React Native 启动脚本
+echo          Momento 相册 - React Native 启动脚本
 echo ===============================================
 echo.
 
-set "PROJECT_DIR=c:\Users\voania\Desktop\iCloudVault\MiMoApp"
+set "PROJECT_DIR=c:\Users\voania\Desktop\iCloudVault\MomentoApp"
 set "ANDROID_HOME=C:\Users\voania\AppData\Local\Android\Sdk"
 set "EMULATOR_AVD=Pixel_10_Pro"
 set "METRO_PORT=8081"
@@ -63,7 +63,7 @@ echo ===============================================
 echo.
 echo 如果应用未自动启动：
 echo 1. 确保模拟器已完全启动
-echo 2. 在模拟器中打开 MiMo 应用
+echo 2. 在模拟器中打开 Momento 应用
 echo 3. 按 Ctrl+M 打开调试菜单，选择 Reload
 echo.
 pause

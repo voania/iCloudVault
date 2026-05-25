@@ -1,4 +1,4 @@
-package com.mimoapp
+package com.momento
 
 import android.net.Uri
 import com.facebook.react.bridge.*

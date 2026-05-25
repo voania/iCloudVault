@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mimo-app-cache-v1';
+const CACHE_NAME = 'momento-app-cache-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
@@ -18,7 +18,7 @@ const ASSETS_TO_CACHE = [
   '/icons/icon-512x512.png',
 ];
 
-const DYNAMIC_CACHE_NAME = 'mimo-dynamic-cache-v1';
+const DYNAMIC_CACHE_NAME = 'momento-dynamic-cache-v1';
 const MAX_DYNAMIC_CACHE_SIZE = 50;
 
 self.addEventListener('install', (event) => {
@@ -146,7 +146,7 @@ async function removePendingPhoto(id) {
 
 self.addEventListener('push', (event) => {
   const data = event.data?.json() || {};
-  const title = data.title || 'MiMo 相册';
+  const title = data.title || 'Momento 相册';
   const options = {
     body: data.body || '',
     icon: '/icons/icon-192x192.png',

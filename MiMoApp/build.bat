@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-title MiMoApp Build Script
+title Momento Build Script
 
 :: 检查参数
 if "%1"=="" goto usage
@@ -135,7 +135,7 @@ goto end
 
 :usage
 echo ====================
-echo MiMoApp Build Script
+echo Momento Build Script
 echo ====================
 echo.
 echo Usage: build.bat [command]

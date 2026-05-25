@@ -29,7 +29,7 @@
 ## 项目结构
 
 ```
-MiMoApp/
+MomentoApp/
 ├── App.tsx                          # GestureHandler → SafeArea → Paper → Theme → Navigation
 ├── index.js                         # RN 入口
 ├── babel.config.js                  # reanimated plugin
@@ -107,7 +107,7 @@ MiMoApp/
 │   │   ├── memories/                # ✅ 记忆服务
 │   │   │   └── index.ts             # 那年今天 + 季节回忆 + 地点回忆
 │   │   ├── deepLinking/             # ✅ 深度链接
-│   │   │   └── index.ts             # mimo:// 协议解析
+│   │   │   └── index.ts             # momento:// 协议解析
 │   │   ├── accessibility/           # ✅ 无障碍
 │   │   │   └── index.ts             # 辅助属性工具
 │   │   └── share/                   # ✅ 分享服务
@@ -408,7 +408,7 @@ RootStack (NativeStackNavigator)
 | 分享 Hook | `hooks/useShare.ts` | react-native-share 封装 |
 | 相册持久化 | `albumStore.ts` | WatermelonDB 自动写入 + hydrateFromDb |
 | 记忆服务 | `services/memories/index.ts` | 那年今天 + 季节回忆 + 地点回忆 |
-| 深度链接 | `services/deepLinking/index.ts` | mimo:// 协议解析 + 导航路由映射 |
+| 深度链接 | `services/deepLinking/index.ts` | momento:// 协议解析 + 导航路由映射 |
 | 无障碍 | `services/accessibility/index.ts` | PhotoCard/Button/Header/List/Tab 辅助属性 |
 
 ### 代码审计修复明细
@@ -463,7 +463,7 @@ RootStack (NativeStackNavigator)
 ## 运行
 
 ```bash
-cd MiMoApp
+cd MomentoApp
 npm install
 npx react-native run-android  # 需要 Android SDK
 ```

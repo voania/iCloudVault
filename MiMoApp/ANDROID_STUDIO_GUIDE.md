@@ -1,9 +1,9 @@
-### 在 Android Studio 中运行 MiMo 相册
+### 在 Android Studio 中运行 Momento 相册
 
 #### 1. 打开项目
 
 1. 打开 Android Studio
-2. 选择 `Open` → 导航到 `c:\Users\voania\Desktop\iCloudVault\MiMoApp\android`
+2. 选择 `Open` → 导航到 `c:\Users\voania\Desktop\iCloudVault\MomentoApp\android`
 3. 等待 Gradle 同步完成
 
 #### 2. 配置检查
@@ -27,7 +27,7 @@ targetSdkVersion = 36
 
 1. **启动 Metro 服务器**（终端）：
 ```bash
-cd c:\Users\voania\Desktop\iCloudVault\MiMoApp
+cd c:\Users\voania\Desktop\iCloudVault\MomentoApp
 npx react-native start --port 8081
 ```
 
@@ -60,7 +60,7 @@ npx react-native start --port 8081
 #### 5. 项目结构
 
 ```
-MiMoApp/
+MomentoApp/
 ├── android/                    # Android 模块
 │   ├── app/                   # 应用代码
 │   ├── build.gradle           # 项目级配置
@@ -95,7 +95,7 @@ MiMoApp/
 ```batch
 @echo off
 echo Starting Metro server...
-start cmd /k "cd c:\Users\voania\Desktop\iCloudVault\MiMoApp && npx react-native start --port 8081"
+start cmd /k "cd c:\Users\voania\Desktop\iCloudVault\MomentoApp && npx react-native start --port 8081"
 
 echo Waiting for Metro...
 timeout /t 5 /nobreak

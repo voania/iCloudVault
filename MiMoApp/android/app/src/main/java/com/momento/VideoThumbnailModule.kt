@@ -1,4 +1,4 @@
-package com.mimoapp
+package com.momento
 
 import android.graphics.Bitmap
 import android.media.MediaMetadataRetriever

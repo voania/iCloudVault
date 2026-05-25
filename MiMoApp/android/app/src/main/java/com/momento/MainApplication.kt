@@ -1,4 +1,4 @@
-package com.mimoapp
+package com.momento
 
 import android.app.Application
 import com.facebook.react.PackageList

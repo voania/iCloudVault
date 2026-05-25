@@ -1,7 +1,7 @@
 {
-  "name": "iCloudVault",
-  "short_name": "iCV",
-  "description": "私密相册 - 安全的照片管理应用",
+  "name": "Momento",
+  "short_name": "Momento",
+  "description": "Momento 相册 - 智能照片管理应用",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#1C1B1F",

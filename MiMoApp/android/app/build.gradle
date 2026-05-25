@@ -74,9 +74,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.mimoapp"
+    namespace "com.momento"
     defaultConfig {
-        applicationId "com.mimoapp"
+        applicationId "com.momento"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
