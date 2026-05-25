@@ -1,6 +1,6 @@
-# iCloudVault
+# Momento
 
-独立于系统相册的 iCloud 私人相册管理应用 —— 基于多模态 AI 自动分类、语义搜索、去重。
+独立于系统相册的私人相册管理应用 —— 基于多模态 AI 自动分类、语义搜索、去重。
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-prototype-purple?style=flat-square" alt="status">
@@ -11,11 +11,11 @@
 
 ## 痛点
 
-iOS 用户将照片存入 iCloud Drive 后，只能通过"文件"App 查看，无法像系统相册一样按时间线浏览、按内容搜索、自动分类、去重。系统相册与 iCloud Drive 照片完全割裂。
+iOS 用户将照片存入相册后，需要一个更智能的管理方式，支持按时间线浏览、按内容搜索、自动分类、去重。
 
 ## 特性
 
-- **iCloud Drive 直读**：访问 iCloud Drive 指定文件夹，与系统相册完全隔离
+- **隐私保护**：照片本地存储，与系统相册完全隔离
 - **AI 智能分类**：多模态模型自动打标签（人物、场景、物体、OCR 文字提取）
 - **自然语言搜索**：支持"去年在海边拍的日落"级别语义搜索
 - **时间线 + 地图**：EXIF 元数据提取，时空双维度浏览

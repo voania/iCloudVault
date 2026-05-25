@@ -1,6 +1,6 @@
 {
-  "name": "MiMo 相册",
-  "short_name": "MiMo",
+  "name": "Momento 相册",
+  "short_name": "Momento",
   "description": "安全、私密、智能的照片管理应用",
   "start_url": "/",
   "display": "standalone",

@@ -1,7 +1,7 @@
 # Momento 相册 — React Native App
 
 ## 开发环境
-- 项目路径：`C:\Users\voania\Desktop\iCloudVault\MiMoApp`
+- 项目路径：`C:\Users\voania\Desktop\iCloudVault\MomentoApp`
 - Node.js ≥ 22.11，npm 已装
 - Java 17（构建用）：`C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot`
 - Java 21（Android Studio JBR）：`C:\Program Files\Android\Android Studio\jbr`（AGP 7.4.2 不兼容，构建请用 JDK 17）
@@ -11,7 +11,7 @@
 
 ## 快速启动
 ```bash
-cd C:\Users\voania\Desktop\iCloudVault\MiMoApp
+cd C:\Users\voania\Desktop\iCloudVault\MomentoApp
 # 启动模拟器 + Metro + 构建 + 安装：
 cd android && export ANDROID_HOME="C:\Users\voania\AppData\Local\Android\Sdk" && export JAVA_HOME="C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot" && bash gradlew assembleDebug
 # 模拟器：
